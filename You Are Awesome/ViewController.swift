@@ -55,7 +55,6 @@ class ViewController: UIViewController {
     // MARK: - Actions
     @IBAction func soundSwitchPressed(_ sender: UISwitch) {
         if !soundSwitch.isOn && soundNumber != -1 {
-            if last
                 awesomePlayer.stop()
             }
         }
